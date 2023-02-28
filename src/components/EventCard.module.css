@@ -1,0 +1,22 @@
+.event {
+  background-color: gainsboro;
+  padding: 8px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.event p {
+  margin: 0;
+  font-size: large;
+}
+
+.eventHolder {
+  height: 500px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.event span button {
+  margin-left: 5px;
+  padding: 3px;
+  border-radius: 10px;
+}
