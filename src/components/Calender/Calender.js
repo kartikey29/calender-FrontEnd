@@ -74,7 +74,7 @@ const Calender = () => {
       <ModalCus confirmDelete={confirmDelete} getData={getData}></ModalCus>
       <Container className={classes.Container}>
         <Row style={{ margin: "0" }}>
-          <Col lg={8}>
+          <Col lg={8} className={classes.col}>
             <div className={classes.calenderHolder}>
               <FullCalendar
                 height="500px"
@@ -87,7 +87,7 @@ const Calender = () => {
               />
             </div>
           </Col>
-          <Col>
+          <Col className={classes.col}>
             <h2>Upcoming events</h2>
             <div className={classes.eventHolder}>
               {mapUpcoming(upcomingEvents)}
